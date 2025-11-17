@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#03014",
+        // Fix invalid hex color (must be 3 or 6 hex digits). Use a 6-digit dark purple.
+        primary: "#030014",
         accent: "#AB8BFF",
         secondary: "#151312",
         light:{
